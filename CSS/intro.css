@@ -1,6 +1,44 @@
-/* CSS: Cascading Style Sheets */
+/* CSS: Cascading Style Sheets
 
-/* Other type of CSS laguages:- */
-/* Sass: Syntactically Awesome Style Sheets */
-/* Less: Leaner Style Sheets */
+Other type of CSS laguages:-
+Sass: Syntactically Awesome Style Sheets
+Less: Leaner Style Sheets
 
+Note:- Most widely used is the "Cascading Style Sheets or CSS"
+
+There are 3 types of CSS: 
+1. In-line CSS
+2. Internal CSS
+3. External CSS
+
+Note:- Most widely used CSS is the "External CSS" as styles.css file
+
+
+A. Internal CSS example
+<h1 style="background: blue"> Main Heading </h1>
+
+B. Internal CSS example
+<html>
+    <head>
+        <style>
+            html {
+                background: blue;
+            }
+        </style>
+    </head>
+</html>
+
+C. External CSS example
+index.html
+<html>
+    <head>
+        <link
+            rel="stylesheet"
+            href="./styles.css"
+        />
+    </head>
+</html>
+styles.css
+html {
+    background: green;
+} */
