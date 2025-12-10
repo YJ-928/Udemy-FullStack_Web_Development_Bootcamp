@@ -1,0 +1,82 @@
+/* Index.HTML Styles */
+body {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 18px;
+}
+
+/* Font Size  */
+footer {
+    font-size: 12pt;
+}
+
+html {
+    font-size: 30px;
+}
+
+/* Main or index.html  */
+#color-property {
+    color: coral;
+}
+
+#font-size-property {
+    font-size: 2rem;
+}
+
+#font-weight-property {
+    font-weight: 900;
+}
+
+#font-family-property {
+    font-family: "Caveat", cursive;
+}
+
+#text-align-property {
+    text-align: right;
+}
+
+/* Font Family */
+#helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+#arial {
+    font-family: Arial, sans-serif;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#sans-serif {
+    font-family: sans-serif;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+#monospace {
+    font-family: monospace;
+}
+
+#fantasy {
+    font-family: fantasy;
+}
+
+/* Font Size */
+#pixel {
+    font-size: 20px;
+}
+
+#point {
+    font-size: 20pt;
+}
+
+#em {
+    font-size: 1em;
+}
+
+#rem {
+    font-size: 1rem;
+}
