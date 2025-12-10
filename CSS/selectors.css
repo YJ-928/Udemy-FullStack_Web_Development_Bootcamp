@@ -1,0 +1,48 @@
+/* CSS selectors are the elements to which the css properties will be applied to
+like in the below example the h1 tag or element */
+
+/* 1. ELEMENT SELECTOR */
+h1 {
+    color: chocolate;
+}
+
+/* 2. CLASS SELECTOR  */
+/* Start with a '.' (dot) followed by the class name
+In HTML class = "class_name" defined inside the starting tag
+And the class name must be exactly same as defined in the html file */
+.class_name {
+    color: cornflowerblue;
+}
+
+/* 3. ID SELECTOR  */
+/* Start with a '#' (Hash) followed by the id name */
+/* In HTML id = "id_name", defined in the starting tag */
+#id_name {
+    color: crimson;
+}
+
+/* NOTE:- Class vs ID */
+/* Classes can be repeated but id's must be unique per element and cannot be repeated */
+
+/* 4. ATTRIBUTE SELECTOR */
+/* example:-
+<p draggable="true"> Drag Me </p>
+<p draggable="false">Drag Me </p>
+*/
+
+/* Attribute selector without value */
+p[draggable] {
+    color: tomato
+}
+
+/* Attribute selector with value */
+p[draggable="false"] {
+    color: indigo
+}
+
+/* 5. UNIVERSAL SELECTOR */
+/* Selects all ir-respective of the classes or id's or attributes  */
+/* Starts with a '*' (Star or Astriek) */
+* {
+    color: orange;
+}
