@@ -1,0 +1,45 @@
+/* 
+There are mainly Four (4) positioning properties:-
+
+1. STATIC
+2. RELATIVE
+3. ABSOLUTE
+4. FIXED 
+
+*/
+
+/* 1. Static:- Based on HTML elements positioning. In a st. line without spaces */
+/* Example */
+static-element {
+    position: static;
+}
+
+/* 2. Relative:- Move it relatively based on its HTML-BASED-FIXED (STATIC) position */
+/* Example */
+relative-element {
+    position: relative;
+    /* # new position using the padding or movements from orignal */
+    left: 50px;
+    top: 50px;
+}
+
+/* 3. Absolute:- Move it relatively but based on its Anchestor (Parent element above it having a position property) */
+/* Note:- If a absolute-postioned element does not have a anchestor then it positions based on the main or top-most element */
+/* Example */
+absolute-element {
+    position: absolute;
+    /* Relative from its nearest postion anchestor */
+    top: 50px;
+    left: 25px;
+}
+
+/* Z-Index: z-axis property to specific which element comes above or below the other element */
+
+/* 4. Fixed:- It is positioned relatively to the browser window. Meaning for scroll also it is positioned there and rest of the webpage scrolls */
+/* Example */
+fixed-element {
+    position: fixed;
+    /* Where should this foxed element must be placed */
+    top: 50px;
+    left: 75px;
+}
