@@ -5,3 +5,33 @@ We can simply combine the existing ones which applies the css properties to that
 selector1, selector2 {
     color: red;
 }
+
+/* To group using the ">" to select just the child of the parent element */
+
+/* Example */
+parent-element > child-element {
+    color: yellow;
+}
+
+/* Descendant Combination: apply to any desendant or inside element of the RHS selector element  */
+
+/* Example  */
+anchestor-element desendant-element {
+    color: green;
+}
+
+/* Chaining Selector, Apply where All selectors are TRUE or present */
+/* We can chain multiple type of selectors like element, id, class together */
+/* NOTE: Leave no space in between the different chained selectors */
+
+/* Example */
+element-selector.class-selector#id-selector {
+    color: blue;
+}
+
+/* COMBINE ALL THE ABOVE METHODS ALSO POSSIBLE */
+
+/* Example */
+element-selector chained-selectors {
+    color: orange;
+}
