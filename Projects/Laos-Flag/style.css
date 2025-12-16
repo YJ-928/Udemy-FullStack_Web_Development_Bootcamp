@@ -1,0 +1,40 @@
+/* element selector */
+p {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* class selector */
+.flag {
+    background-color: #CE1126;
+    width: 900px;
+    height: 600px;
+}
+
+/* class selector parent-child combination */
+.flag > div {
+    background-color: #002868;
+    width: 900px;
+    height: 250px;
+    position: relative;
+    top: 100px;
+}
+
+/* class selector with double parent-child combination */
+.flag > div > div {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 330px;
+}
+
+/* class selector with desendant combination */
+.flag > div div p {
+    color: black;
+}
