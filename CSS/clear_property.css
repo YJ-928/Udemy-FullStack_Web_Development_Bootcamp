@@ -1,0 +1,14 @@
+/* 
+The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it.
+The clear property applies to floating and non-floating elements.
+*/
+
+img {
+    float: left;
+}
+
+/* To clear the footer to go down in a new line and do not get affected by above floating property */
+
+.footer {
+    clear: left;
+}
