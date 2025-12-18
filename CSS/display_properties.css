@@ -1,0 +1,29 @@
+/* There are mainly Three CSS Display properties */
+
+/* 
+1. inline
+2. block
+3. inline-block 
+4. None to do not display the set element
+*/
+
+/* A. inline */
+/* Displays the element or text inline or same line and occupies only the space required by its content */
+/* Does not allow to change the height and width */
+p {
+    display: inline;
+}
+
+/* B. block */
+/* Displays the element like a block placing text one below the other and occupies the complete space available  */
+/* Can change the height and width of the block */
+p {
+    display: block;
+}
+
+/* C. inline-block */
+/* Displays the element similar to a block, but occupies next line if more than available space is required */
+/* Allows to change the default height and width of the block */
+p {
+    display: inline-block;
+}
