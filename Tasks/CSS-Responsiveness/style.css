@@ -1,0 +1,17 @@
+h1 {
+    font-size: large;
+}
+
+.main {
+    background-color: chocolate;
+}
+
+.row {
+    background-color: aqua;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 100px;
+    }
+}
